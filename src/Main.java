@@ -26,7 +26,7 @@ public class Main {
 
 	/*
 	 * Pre: age is an int > 0 
-	 * Post: computes and returns the dog’s age translated to
+	 * Post: computes and returns the dogâ€™s age translated to
 	 *       human years
 	 */
 	static int getDogAge(int age) {
@@ -34,7 +34,8 @@ public class Main {
 	}
 
 	/*
-	 * Pre: year is an int >= 0 Post: returns true if year is a leap year, false
+	 * Pre: year is an int >= 0
+         * Post: returns true if year is a leap year, false
 	 * otherwise
 	 */
 	static boolean isLeapYear(int year) {
