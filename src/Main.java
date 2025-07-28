@@ -24,20 +24,9 @@ public class Main {
 		return result;
 	}
 
-	/*
-	 * Pre: age is an int > 0 
-	 * Post: computes and returns the dog’s age translated to
-	 *       human years
-	 */
-	static int getDogAge(int age) {
-		return age * 7;
-	}
-
-	/*
-	 * Pre: year is an int >= 0
-         * Post: returns true if year is a leap year, false
-	 * otherwise
-	 */
+	// Precondition: year > 0
+	// Postcondition: returns true if year is a leap
+	//                 year and false otherwise
 	static boolean isLeapYear(int year) {
 		if (year % 4 != 0)
 			return false;
@@ -46,5 +35,23 @@ public class Main {
 		else
 			return true;
 	}
+
+
+	// Precondition: none
+	// Postcondition: returns the square of x
+	static int square(int x) 
+	{
+    		return x * x;
+	}
+
+
+
+	// Precondition: b != 0
+	// Postcondition: returns the quotient of 
+	//                a and b as an integer
+	static int divide(int a, int b) {
+    		return a / b;
+	}
+
 
 }
